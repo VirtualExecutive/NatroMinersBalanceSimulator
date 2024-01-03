@@ -58,8 +58,6 @@ class Simulator:
             self.saver.Write("-"*30)
 
     def Start(self):
-        investAsk=""
-        daysAsk=""
         match self.language:
             case "EN":
                 investAsk="Enter the starting USD amount:"
